@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   featureLoaded = 'recipe';
   title = 'Recipe-Book-App';
-
-  onFeatureSelected(feature:string){
-    this.featureLoaded = feature;
-  }
 }
